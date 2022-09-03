@@ -151,8 +151,7 @@ function App() {
               <Teams
                 selectedTeam={selectedTeam}
                 employees={employees}
-                handleEmployeeClick={handleEmployeeClick}
-                handleTeamChange={handleTeamChange}
+                setTeam={setTeam}
               />
             }
           ></Route>
